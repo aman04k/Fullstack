@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex - Direction</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            border: 3px solid black;
+        }
+        #container{
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            
+        }
+        
+        .box1{
+            
+            background-color: red;
+            
+        }
+        .box2{
+           
+            background-color: blue;
+            height: 200px;
+           
+        }
+        .box3{
+           
+            background-color: blueviolet;
+            
+           
+        }
+        .box4{
+            
+            background-color: aqua;
+           
+
+        }
+        .box5{
+            background-color: brown;
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Direction</h1>
+<div id="container">
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+    <div class="box4">Box4</div>
+    <div class="box5">Box5</div>
+
+</div>
+</body>
+</html>
