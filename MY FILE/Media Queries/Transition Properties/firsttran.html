@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transtion Properties</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*transition-property: all;
+            transition-duration: 2s;*/
+            border: 3px solid black;
+            transition: all 2s ease-in 1s;
+            top: 100px;
+            left: 100px;
+            position: absolute;
+            animation: red 3s ease-in 1s 5 direction fill-mode;
+        }
+        div:hover{
+            background-color: blueviolet;
+            color: blanchedalmond;
+            font-size: 20px;
+        
+             
+        }
+    </style>
+</head>
+<body>
+    <div>This is a box</div>
+</body>
+</html>
